@@ -31,7 +31,29 @@ public class QueenBoard{
         board[r][c] = 0;
     }
 
-    
+    public boolean solve(){
+        return solver(0);
+    }
+
+    private boolean solver(int col) {
+        if (col == board.length) {
+            return true;
+        }
+
+        for (int row = 0; row < board.length; row++) {
+            if (board[row][col] == 0) {
+                addQueen(row, col);
+
+                if (solver(col + 1)) {
+                    return true;
+                } else {
+                    removeQueen(row, col);
+                }
+            }
+
+        }
+        return false;
+    }
 
 
 

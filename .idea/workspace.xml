@@ -26,13 +26,15 @@
       <file leaf-file-name="QueenBoard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02NQueens/QueenBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+            <state relative-caret-position="379">
+              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,12 +233,12 @@
       <updated>1517783337355</updated>
       <workItem from="1517783339247" duration="4678000" />
       <workItem from="1517792068092" duration="1872000" />
-      <workItem from="1518474449352" duration="2173000" />
+      <workItem from="1518474449352" duration="2628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8723000" />
+    <option name="totallyTimeSpent" value="9178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1117" y="0" width="810" height="1047" extended-state="0" />
@@ -315,13 +317,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02NQueens/QueenBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        <state relative-caret-position="379">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
           <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
           </folding>
         </state>
       </provider>

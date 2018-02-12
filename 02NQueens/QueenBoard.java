@@ -1,5 +1,6 @@
 public class QueenBoard{
-    private int[][] board; 
+    private int[][] board;
+    private int solutions = 0;
 
     public QueenBoard(int size) {
         board = new int[size][size];
@@ -12,10 +13,12 @@ public class QueenBoard{
                 int yd = r - y;
                 if(Math.abs(xd*yd) == 0 || Math.abs(xd*yd) == xd * yd){
                     board[y][x] += 1;
+                    return true;
                 }
             }
         }
         board[r][c] = -1;
+        return false;
     }
 
     private void removeQueen(int r, int c){
@@ -55,12 +58,11 @@ public class QueenBoard{
         return false;
     }
 
-    public void countSolutions(){
-        int solutions = 0;
-        countHelper(0);
+    public int countSolutions(){
+        return countHelper(0);
     }
 
-    private void countHelper(int c){
+    private int countHelper(int c){
         for(int y = 0; y < board.length; y++) {
             for (int x = 0; x < board.length; x++) {
                 board[y][x] = 0;
@@ -73,13 +75,31 @@ public class QueenBoard{
 
             for(int r = 0; r < board.length; r++){
                 if(board[r][c] == 0){
-                    placeQueen(r, c);
+                    addQueen(r, c);
                     countHelper(c + 1);
                     removeQueen(r, c);
                 }
             }
+            return solutions; 
         }
 
+    public String toString(){
+        System.out.print("\033[2J\033[1;1H");
+        String b = "";
+        for(int[] r: board){
+            for(int c: r){
+                if(c == -1){
+                    System.out.print("Q");
+                }
+                else{
+                    System.out.print("_");
+                }
+            }
+            System.out.print("\n");
+        }
+
+        return b;
+    }
 
 
 }

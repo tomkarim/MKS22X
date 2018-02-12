@@ -26,8 +26,8 @@
       <file leaf-file-name="QueenBoard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02NQueens/QueenBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="770">
+              <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
@@ -231,12 +231,12 @@
       <updated>1517783337355</updated>
       <workItem from="1517783339247" duration="4678000" />
       <workItem from="1517792068092" duration="1872000" />
-      <workItem from="1518474449352" duration="941000" />
+      <workItem from="1518474449352" duration="2173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7491000" />
+    <option name="totallyTimeSpent" value="8723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1117" y="0" width="810" height="1047" extended-state="0" />
@@ -315,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02NQueens/QueenBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="770">
+          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />

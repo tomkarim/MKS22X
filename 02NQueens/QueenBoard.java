@@ -35,25 +35,50 @@ public class QueenBoard{
         return solver(0);
     }
 
-    private boolean solver(int col) {
-        if (col == board.length) {
+    private boolean solver(int c) {
+        if (c == board.length) {
             return true;
         }
 
-        for (int row = 0; row < board.length; row++) {
-            if (board[row][col] == 0) {
-                addQueen(row, col);
+        for (int r = 0; r < board.length; r++) {
+            if (board[r][c] == 0) {
+                addQueen(r, c);
 
-                if (solver(col + 1)) {
+                if (solver(c + 1)) {
                     return true;
                 } else {
-                    removeQueen(row, col);
+                    removeQueen(r, c);
                 }
             }
 
         }
         return false;
     }
+
+    public void countSolutions(){
+        int solutions = 0;
+        countHelper(0);
+    }
+
+    private void countHelper(int c){
+        for(int y = 0; y < board.length; y++) {
+            for (int x = 0; x < board.length; x++) {
+                board[y][x] = 0;
+            }
+        }
+            if (c == board.length){
+                solutions++;
+                return solutions;
+            }
+
+            for(int r = 0; r < board.length; r++){
+                if(board[r][c] == 0){
+                    placeQueen(r, c);
+                    countHelper(c + 1);
+                    removeQueen(r, c);
+                }
+            }
+        }
 
 
 

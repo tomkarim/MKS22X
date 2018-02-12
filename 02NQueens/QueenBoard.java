@@ -13,15 +13,14 @@ public class QueenBoard{
                 int yd = r - y;
                 if(Math.abs(xd*yd) == 0 || Math.abs(xd*yd) == xd * yd){
                     board[y][x] += 1;
-                    return true;
                 }
             }
         }
         board[r][c] = -1;
-        return false;
+        return true;
     }
 
-    private void removeQueen(int r, int c){
+    private boolean removeQueen(int r, int c){
         for (int y = 0; y < board.length; y++){
             for (int x = 0; x < board.length; x++){
                 int xd = c - x;
@@ -32,6 +31,7 @@ public class QueenBoard{
             }
         }
         board[r][c] = 0;
+        return true;
     }
 
     public boolean solve(){
@@ -80,7 +80,7 @@ public class QueenBoard{
                     removeQueen(r, c);
                 }
             }
-            return solutions; 
+            return solutions;
         }
 
     public String toString(){

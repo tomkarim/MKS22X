@@ -5,6 +5,7 @@ public class KnightBoard{
 
     public KnightBoard(int startingRows, int startingCols){
 	board = new int[startingRows][startingCols];
+	solve(startingRows, startingCols);
 
 
     }
@@ -12,6 +13,15 @@ public class KnightBoard{
     public boolean isValidMove(){
 
     }
+
+    public boolean solve(int startingRow, int startingCol){
+	solveH(startingRow, startingCol, 1);
+    }
+
+    public boolean solveH(int row, int col, int level){
+
+    }
+    
 
 
     

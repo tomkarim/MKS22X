@@ -12,7 +12,8 @@ public class Maze{
 	    String text = in.nextLine();
 	    int n = text.length();
 
-	    while (in.hasNext() {
+	    while (in.hasNext()) {
+		text += in.nextLine();
 
 		}
 		

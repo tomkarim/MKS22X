@@ -12,11 +12,12 @@ public class KnightBoard{
     }
 
     public boolean solve(int startingRow, int startingCol){
-	solveH(startingRow, startingCol, 1);
 	if(!solveH(0,0,1)){
 	    board[0][0] = 0;
 	}
+	return solveH(startingRow, startingCol, 1);
     }
+		
 
     public boolean solveH(int row, int col, int level){
 	if (level == 1){

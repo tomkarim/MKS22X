@@ -1,36 +1,53 @@
 public class QueenBoard{
     private int[][] board;
+    private int[] queens;
     private int solutions = 0;
 
     public QueenBoard(int size) {
         board = new int[size][size];
+        queens = new int[size];
+        for (int i = 0; i < board.length; i++){
+            queens[i] = -1;
+        }
     }
 
     private boolean addQueen(int r, int c){
-        for (int y = 0; y < board.length; y++){
-            for (int x = 0; x < board.length; x++){
-                int xd = c - x;
-                int yd = r - y;
-                if(Math.abs(xd*yd) == 0 || Math.abs(xd*yd) == xd * yd){
-                    board[y][x] += 1;
-                }
-            }
+        if(board[r][c] != 0){
+            return false;
         }
-        board[r][c] = -1;
+        board[r][c] = 1;
+        int quavo = 1;
+        while(c+quavo < board[r].length){
+            board[r][c+quavo]--;
+            if(r - quavo >= 0){
+                board[r-quavo][c+quavo]--;
+            }
+            if(r + quavo < board.length){
+                board[r+quavo][c+quavo]--;
+            }
+            quavo++;
+        }
+        queens[c] = r;
         return true;
     }
 
     private boolean removeQueen(int r, int c){
-        for (int y = 0; y < board.length; y++){
-            for (int x = 0; x < board.length; x++){
-                int xd = c - x;
-                int yd = r - y;
-                if(Math.abs(xd*yd) == 0 || Math.abs(xd*yd) == xd * yd){
-                    board[y][x] -= 1;
-                }
-            }
+        if(board[r][c] != 1){
+            return false;
         }
-        board[r][c] = 0;
+        board[r][c] = -1; // 0;
+        int quavo = 1;
+        while(c+quavo < board[r].length){
+            board[r][c+quavo]++;
+            if(r - quavo >= 0){
+                board[r-quavo][c+quavo]++;
+            }
+            if(r + quavo < board.length){
+                board[r+quavo][c+quavo]++;
+            }
+            quavo++;
+        }
+        queens[c] = -1;
         return true;
     }
 
@@ -39,38 +56,40 @@ public class QueenBoard{
     }
 
     private boolean solver(int c) {
-        if (c == board.length) {
+        if (c >= board.length) {
             return true;
         }
-
         for (int r = 0; r < board.length; r++) {
-            if (board[r][c] == 0) {
-                addQueen(r, c);
-
-                if (solver(c + 1)) {
+            if (board[r][c]==0){
+                addQueen(r,c);
+                if (solver(c+1)) {
                     return true;
-                } else {
-                    removeQueen(r, c);
+                }else{
+                    removeQueen(queens[c],c);
                 }
             }
-
         }
         return false;
     }
 
     public int countSolutions(){
-        return countHelper(0);
+        int solutions = 0;
+        for(int i = 0; i <board.length; i++){
+            for(int[] r: board){
+                for(int c: r){
+                    c = 0;
+                }
+            }
+            if(solver(i)){
+                solutions++;
+            }
+        }
+        return solutions;
     }
 
     private int countHelper(int c){
-        for(int y = 0; y < board.length; y++) {
-            for (int x = 0; x < board.length; x++) {
-                board[y][x] = 0;
-            }
-        }
             if (c == board.length){
                 solutions++;
-                return solutions;
             }
 
             for(int r = 0; r < board.length; r++){
@@ -84,23 +103,21 @@ public class QueenBoard{
         }
 
     public String toString(){
-        System.out.print("\033[2J\033[1;1H");
-        String b = "";
-        for(int[] r: board){
-            for(int c: r){
-                if(c == -1){
-                    System.out.print("Q");
-                }
-                else{
-                    System.out.print("_");
+        String ans = "";
+        for(int r = 0; r < board.length; r++){
+            for(int c = 0; c < board[0].length; c++){
+                if(board[r][c]==1){
+                    ans += "Q  ";
+                }else if(board[r][c]==0){
+                    ans += "_  ";
+                }else{
+                    ans += "   ";
                 }
             }
-            System.out.print("\n");
+            ans += "\n";
         }
-
-        return b;
+        return ans;
     }
-
 
 }
 	

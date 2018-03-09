@@ -1,0 +1,29 @@
+public class USACO{
+    public int[][] pasture;
+    public int[] lakeLevel;
+
+    public void stomp(int r, int c, int d){
+	for(int x = r; 
+	
+	
+       
+    }
+
+    public int getHighE(int r, int c){
+	int max = 0;
+	int row = r;
+	int col = c;
+
+	for(int x = r; r < 3; r++){
+	    for(int y = c; y < 3; y++){
+		if(pasture[x][y] > max){
+		    max = pasture[x][y];
+		}
+	    }
+	}
+	return max;
+    }
+
+}
+	  
+

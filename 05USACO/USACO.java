@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 
 public class USACO{
-    public int[][] pasture;
-    public int finalE;
+    public static int [][] pasture;
+    public static int finalE;
 
     public static int bronze(String filename) {
         int[] prm = new int[4];
@@ -16,7 +16,7 @@ public class USACO{
 
             for (int r = 0; r < pasture.length; r++) {
                 for (int c = 0; c < pasture[0].length; c++) {
-                    pasture[r][c] = s.nextInt();
+                    pasture[r][c] = in.nextInt();
                 }
             }
             while (in.hasNextInt()) {
@@ -30,7 +30,7 @@ public class USACO{
         return 0;
     }
 
-    public void stomp(int r, int c, int d){
+    public static void stomp(int r, int c, int d){
         r--;
         c--;
 
@@ -50,7 +50,7 @@ public class USACO{
         }
     }
 
-    public int[] getHighE(int r, int c){
+    public static int[] getHighE(int r, int c){
         int max = pasture[r][c];
         int row = r;
         int col = c;
@@ -68,7 +68,7 @@ public class USACO{
         return coors;
     }
 
-    public int lakeMaker(int finalE) {
+    public static int lakeMaker(int finalE) {
         int counter = 0;
         for (int r = 0; r < pasture.length; r++) {
             for (int c = 0; c < pasture[0].length; c++) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461bf3c-a467-4226-a4c6-e59ec400fdd1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/05USACO/USACO.java" afterPath="$PROJECT_DIR$/05USACO/USACO.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +43,8 @@
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04Maze/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -52,10 +53,12 @@
       <file leaf-file-name="USACO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="532">
+              <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3993#3994#0" expanded="true" />
+                <element signature="e#4071#4072#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -310,12 +313,12 @@
       <workItem from="1520380755669" duration="3804000" />
       <workItem from="1520465348963" duration="7709000" />
       <workItem from="1520809063817" duration="2486000" />
-      <workItem from="1520815248255" duration="3114000" />
+      <workItem from="1520815248255" duration="4901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39271000" />
+    <option name="totallyTimeSpent" value="41058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1015" y="0" width="912" height="1047" extended-state="0" />
@@ -412,6 +415,8 @@
           <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,6 +435,8 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,14 +560,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05USACO/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/04Maze/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03Knight/KnightBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
@@ -599,12 +598,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04Maze/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="532">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
           </folding>
         </state>
       </provider>

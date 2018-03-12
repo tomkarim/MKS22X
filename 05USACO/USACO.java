@@ -4,6 +4,8 @@ import java.io.*;
 public class USACO{
     public static int [][] pasture;
     public static int finalE;
+    public static int[][] map;
+    public static int solutions;
 
     public static int bronze(String filename) {
         int[] prm = new int[4];
@@ -78,6 +80,68 @@ public class USACO{
             }
         }
         return counter;
+    }
+
+    public static int silver(String filename){
+        solutions = 0;
+        try{
+            Scanner in = new Scanner(new File(filename));
+            map = new int[in.nextInt()][in.nextInt()];
+            int t = in.nextInt();
+            in.nextLine();
+
+            for(int r = 0; r < map.length; r++){
+                String rows = in.nextLine();
+
+                for(int c = 0; c < rows.length(); c++){
+                    if(rows.charAt(c) == '*'){
+                        map[r][c] = -1;
+                    }
+                }
+            }
+            silverHelper(in.nextInt() -1, in.nextInt() -1, in.nextInt() -1, in.nextInt() -1, t);
+        }
+        catch(FileNotFoundException e){
+        }
+        return solutions;
+    }
+
+    public static void silverHelper(int r, int c, int r2, int c2, int t){
+        map[r][c] = 1;
+
+        for(int i = 0; i < t; i++){
+            move();
+        }
+
+        solutions = map[r2][c2];
+    }
+
+    public static void move(){
+        int[][] forward = new int[map.length][map[0].length];
+        int[] movey = {1, 0, -1, 0};
+        int[] movex = {0, -1, 0, 1};
+
+        for(int r = 0; r < map.length; r++){
+            for(int c = 0; c < map[0].length; c++){
+                if(map[r][r] == 0){
+                    for(int i = 0; i < movey.length; i++){
+                        int y = r + movey[i];
+                        int x = c + movex[i];
+
+                        if(inRange(y, x) && map[r][c] != -1){
+                            forward[r][c] += map[y][x];
+                        }
+                    }
+                } else if(map[r][c] == -1){
+                    forward[r][c] = -1;
+                }
+            }
+        }
+        map = forward;
+    }
+
+    public static boolean inRange(int r, int c){
+        return r >= 0 && c >= 0 && r < map.length && c < map[0].length;
     }
 
 }

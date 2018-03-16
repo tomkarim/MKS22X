@@ -24,7 +24,7 @@ public class Quick{
 		i++;
 	    }
 	    else if(ary[i] > pivot){
-		swap(a, i, gt);
+		swap(ary i, gt);
 		gt--;
 	    }
 	    else {

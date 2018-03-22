@@ -15,5 +15,13 @@ public class Merge{
 		data[k] = extra[i++];
     }
 
-    public st
+    public static void M(int[] data, int lo, int hi){
+	    int mid = (lo+hi)/2;
+	    if(hi <= lo){
+		    return data;
+	    }
+	    M(data, lo, mid);
+	    M(data, mid+1, hi);
+	    Merge(data, lo, mid, hi);
+    }
 	    

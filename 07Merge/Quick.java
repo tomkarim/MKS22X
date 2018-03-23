@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Quick{
     public static void quicksort(int[] ary){
 	quickhelp(ary, 0, ary.length-1);
@@ -24,7 +26,7 @@ public class Quick{
 		i++;
 	    }
 	    else if(ary[i] > pivot){
-		swap(a, i, gt);
+		swap(ary, i, gt);
 		gt--;
 	    }
 	    else {
@@ -33,12 +35,12 @@ public class Quick{
 		i++;
 	    }
 	}
-	quickhelp(a, lo, lt-1);
-	quickhelp(a, gt+1, hi);
+	quickhelp(ary, lo, lt-1);
+	quickhelp(ary, gt+1, hi);
     }
 
     public static int part(int[] ary, int lo, int hi){
-		Random rng = new Random();
+	Random rng = new Random();
 	int index = lo + rng.nextInt(hi-lo+1);
 	int pivot = ary[index];
 	int i = lo;
@@ -52,7 +54,7 @@ public class Quick{
 		i++;
 	    }
 	    else if(ary[i] > pivot){
-		swap(a, i, gt);
+		swap(ary, i, gt);
 		gt--;
 	    }
 	    else {
@@ -66,12 +68,12 @@ public class Quick{
 
     public static int quickselect(int[] ary, int k){
 	int lo = 0;
-	int hi = a.length-1;
+	int hi = ary.length-1;
 	int i = part(ary, 0, ary.length-1);
 
 	while(i != k){
 	    if(i < k){
-		low = i++;
+		lo = i++;
 		i = part(ary, lo, hi);
 	    } else {
 		hi = i--;

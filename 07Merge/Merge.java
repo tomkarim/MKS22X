@@ -1,27 +1,36 @@
+
 public class Merge{
 
+    public static void mergesort(int[] data){
+	M(data, 0, data.length-1);
+    }
+
     public static void Merge(int[] data, int lo, int mid, int hi){
-	int[] temp = temp[data.length];
-	for(int i = lo; i <= mid; i++)
+	int[] temp = new int[data.length];
+	for(int i = lo; i <= mid; i++){
 	    temp[i] = data[i];
-
-	for(int j = mid+1; j <= hi; j++)
+	}
+	for(int j = mid+1; j <= hi; j++){
 	    temp[mid+1+hi-j] = data[j];
-
-	for(int i = int k = low, j = hi; k <= stop; k++)
+	}
+	int i = lo;
+	for(int k = lo, j = hi; k <= hi; k++){
 	    if(temp[j] < temp[i])
-		data[k] = extra[j--];
+		data[k] = temp[j--];
 	    else
-		data[k] = extra[i++];
+		data[k] = temp[i++];
+	}
     }
 
     public static void M(int[] data, int lo, int hi){
 	    int mid = (lo+hi)/2;
 	    if(hi <= lo){
-		    return data;
+		return;
 	    }
 	    M(data, lo, mid);
 	    M(data, mid+1, hi);
 	    Merge(data, lo, mid, hi);
     }
+    
+}
 	    

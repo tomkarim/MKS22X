@@ -82,6 +82,14 @@ public class Quick{
 	}
 	return ary[i];
     }
+
+    public static void main(String[]args){
+	int[] ary = {7, 9, 8, 3, 12, 0, 1};
+	quicksort(ary);
+	for(int i = 0; i < ary.length; i++){
+	    System.out.println(ary);
+	}
+    }
 }
     
     

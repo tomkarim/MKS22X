@@ -63,7 +63,7 @@ private static final int INCREASE = 0;
     Arrays.sort(result);
     
     long startTime = System.currentTimeMillis();
-    Merge.mergesort(start);
+    Quick.quicksort(start);
     //Merge.mergesort(start);
     long elapsedTime = System.currentTimeMillis() - startTime;
     if(Arrays.equals(start,result)){

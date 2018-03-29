@@ -41,7 +41,7 @@ public class Quick{
 
     public static int part(int[] ary, int lo, int hi){
 	Random rng = new Random();
-	int index = lo + rng.nextInt(hi-lo+1);
+	int index = rng.nextInt(hi-lo);
 	int pivot = ary[index];
 	int i = lo;
 	int lt = lo;

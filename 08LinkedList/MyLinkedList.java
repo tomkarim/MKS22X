@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MyLinkedList{
+public class MyLinkedList implements Iterable<T extends Comparable<T>>{
     private Node start,end;
     private int size;
 
@@ -8,12 +8,22 @@ public class MyLinkedList{
 
     }
 
-    public class Node{
-        Node pre, post;
+    private class Node{
+        Node pre = null, post = null;
     }
+    
+    private class MLLI implements Iterator<T extends Comparable<T>>{
+	Node current = start;
 
-    //This method will help you write other
-    //methods, it is private to protect your list
+	public boolean hasNext(){
+	    return current != null;
+	}
+
+	public T next(){
+	    if(hasNext){
+		
+	
+
     private Node getNode(int index);
 
     public String toString(){

@@ -13,9 +13,6 @@ public class Quick{
 
     public static void quickhelp(int[] ary, int lo, int hi){
 	Random rng = new Random();
-	System.out.println(hi);
-	System.out.println(lo);
-	System.out.println(hi-lo);
 	int index = rng.nextInt(hi-lo);
 	int pivot = ary[index];
 	int i = lo;
@@ -44,7 +41,7 @@ public class Quick{
 
     public static int part(int[] ary, int lo, int hi){
 	Random rng = new Random();
-	int index = lo + rng.nextInt(hi-lo+1);
+	int index = rng.nextInt(hi-lo);
 	int pivot = ary[index];
 	int i = lo;
 	int lt = lo;
@@ -87,12 +84,13 @@ public class Quick{
     }
 
     public static void main(String[]args){
-	int[] data = {1,4,3,2,1,9,0,10};
-	Quick.quicksort(data);
+	int[] ary = {7, 9, 8, 3, 12, 0, 1};
+	quicksort(ary);
+	for(int i = 0; i < ary.length; i++){
+	    System.out.println(ary);
 	}
+    }
 }
-    
-
     
     
 	

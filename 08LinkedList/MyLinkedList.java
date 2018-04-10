@@ -35,6 +35,7 @@ public class MyLinkedList implements Iterable<T extends Comparable<T>>{
         }
         return str + "]";
     }
+    
     public void clear();
     public int size();
     public Integer get(int index);//exceptions!

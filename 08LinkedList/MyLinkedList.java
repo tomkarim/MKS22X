@@ -20,7 +20,8 @@ public class MyLinkedList implements Iterable<T extends Comparable<T>>{
 	}
 
 	public T next(){
-	    if(hasNext){
+	}
+    }
 		
 	
 

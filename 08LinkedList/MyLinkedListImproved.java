@@ -1,18 +1,52 @@
 import java.util.*;
 import java.lang.*;
 
-public class MyLinkedListImproved<T>{
-    private Node start, end; 
+public class MyLinkedListImproved<T extends Comparable<T>> implements Iterable<T>{
+    private Node start = null;
+    private Node end = null;
     private int size = 0;
 
     public MyLinkedListImproved(){
     }
 
+    public Iterator<T>iterator(){
+        return new MyLinkedListIterator(this);
+    }
+
+    private class MyLinkedListIterator implements Iterator<T>{
+        private Node next;
+        T value;
+        Node current = start;
+
+        public MyLinkedListIterator(MyLinkedListImproved<T> l){
+            next = start;
+        }
+
+        public boolean hasNext(){
+            return current != null;
+        }
+
+        public T next(){
+            if(current != null){
+                Node old = current;
+                current = current.next;
+                return old.value;
+            }
+            else{
+                throw new NoSuchElementException();
+            }
+        }
+
+        public void remove(){
+            throw new UnsupportedOperationException();
+        }
+    }
+
     private class Node{
         Node next = null, prev = null;
-        Integer value;
+        T value;
 
-        public Node(int value){
+        public Node(T value){
             this.value = value;
         }
 
@@ -61,24 +95,24 @@ public class MyLinkedListImproved<T>{
         return size;
     }
 
-    public Integer get(int index){
+    public T get(int index){
         if(index >= size || index < 0){
             throw new IndexOutOfBoundsException();
         }
         return getNode(index).value;
     }
 
-    public Integer set(int index, Integer value){
+    public T set(int index, T value){
         if(index >= size || index < 0){
             throw new IndexOutOfBoundsException();
         }
         Node n = getNode(index);
-        Integer old = n.value;
+        T old = n.value;
         n.value = value;
         return old;
     }
 
-    public int indexOf(Integer value){
+    public int indexOf(T value){
         Node current = start;
         for(int i = 0; i < size; i++){
             if(current.value.equals(value)){
@@ -89,7 +123,7 @@ public class MyLinkedListImproved<T>{
         return -1;
     }
 
-    public boolean add(Integer newData){
+    public boolean add(T newData){
         Node nNode = new Node(newData);
         if(size == 0) {
             start = nNode;
@@ -103,7 +137,7 @@ public class MyLinkedListImproved<T>{
         return true;
     }
     
-    public void add(int index, Integer value){
+    public void add(int index, T value){
         if(index < 0 || index > size){
             throw new IndexOutOfBoundsException();
         }
@@ -134,7 +168,7 @@ public class MyLinkedListImproved<T>{
         size++;
     }
 
-    public boolean remove(Integer value){
+    public boolean remove(T value){
         int count = 0;
         for(int i = 0; i < size; i++){
             if(indexOf(value) != 0){
@@ -146,8 +180,8 @@ public class MyLinkedListImproved<T>{
         return true;
     }
 
-    public Integer remove(int index){
-        Integer old;
+    public T remove(int index){
+        T old;
         if(index < 0 || index >= size){
             throw new IndexOutOfBoundsException();
         }
@@ -174,12 +208,30 @@ public class MyLinkedListImproved<T>{
         return old;
     }
 
-    public int max(MyLinkedListImproved<T> implements Comparable<T>){
-	return size; // for now
+    public int max(){
+        int max;
+        if(size == 0) {
+            return -1;
+        }
+        for(T i: this){
+            if (i.compareTo(max.value)>0){
+                max = indexOf(i);
+            }
+        }
+        return max;
     }
 
-    public int min(MyLinkedListImproved<T> implements Comparable<T>){
-	return size; // for now
+    public int min(){
+        int min;
+        if(size == 0) {
+            return -1;
+        }
+        for(T i: this){
+            if (i.compareTo(min.value)<0){
+                min = indexOf(i);
+            }
+        }
+        return min;
     }
 
 

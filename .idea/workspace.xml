@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f461bf3c-a467-4226-a4c6-e59ec400fdd1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/08LinkedList/MyLinkedListImproved.java" afterPath="$PROJECT_DIR$/08LinkedList/MyLinkedListImproved.java" />
+      <change beforePath="$PROJECT_DIR$/09StackEval/eval.java" afterPath="$PROJECT_DIR$/09StackEval/eval.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedListImproved.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLinkedListImproved.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08LinkedList/MyLinkedListImproved.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
@@ -104,6 +104,16 @@
                 <element signature="e#2156#2157#0" expanded="true" />
                 <element signature="e#2183#2184#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eval.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09StackEval/eval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +145,7 @@
       <replace>next</replace>
       <replace>value</replace>
       <replace>min</replace>
+      <replace>T</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,6 +176,7 @@
         <option value="$PROJECT_DIR$/05USACO/USACO.java" />
         <option value="$PROJECT_DIR$/08LinkedList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/08LinkedList/MyLinkedListImproved.java" />
+        <option value="$PROJECT_DIR$/09StackEval/eval.java" />
       </list>
     </option>
   </component>
@@ -229,6 +241,11 @@
               <item name="MKS22X" type="b2602c69:ProjectViewProjectNode" />
               <item name="MKS22X" type="462c0819:PsiDirectoryNode" />
               <item name="08LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MKS22X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MKS22X" type="462c0819:PsiDirectoryNode" />
+              <item name="09StackEval" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,12 +383,12 @@
       <workItem from="1523219457557" duration="2942000" />
       <workItem from="1523393237778" duration="143000" />
       <workItem from="1523394795319" duration="12662000" />
-      <workItem from="1523844450805" duration="2346000" />
+      <workItem from="1523844450805" duration="3571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59203000" />
+    <option name="totallyTimeSpent" value="60428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="0" width="974" height="1047" extended-state="0" />
@@ -416,18 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3993#3994#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04Maze/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -884,6 +889,14 @@
             <element signature="e#2156#2157#0" expanded="true" />
             <element signature="e#2183#2184#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09StackEval/eval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

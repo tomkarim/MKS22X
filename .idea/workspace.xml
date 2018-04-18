@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461bf3c-a467-4226-a4c6-e59ec400fdd1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/09StackEval/eval.java" afterPath="$PROJECT_DIR$/09StackEval/eval.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,9 +110,12 @@
       <file leaf-file-name="eval.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09StackEval/eval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +124,16 @@
         <entry file="file://$PROJECT_DIR$/08LinkedList/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07Merge/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-457">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -236,6 +248,11 @@
               <item name="MKS22X" type="b2602c69:ProjectViewProjectNode" />
               <item name="MKS22X" type="462c0819:PsiDirectoryNode" />
               <item name="05USACO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MKS22X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MKS22X" type="462c0819:PsiDirectoryNode" />
+              <item name="07Merge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MKS22X" type="b2602c69:ProjectViewProjectNode" />
@@ -383,12 +400,12 @@
       <workItem from="1523219457557" duration="2942000" />
       <workItem from="1523393237778" duration="143000" />
       <workItem from="1523394795319" duration="12662000" />
-      <workItem from="1523844450805" duration="3571000" />
+      <workItem from="1523844450805" duration="6237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60428000" />
+    <option name="totallyTimeSpent" value="63094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="0" width="974" height="1047" extended-state="0" />
@@ -433,14 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04Maze/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08LinkedList/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -844,14 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08LinkedList/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08LinkedList/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -892,11 +893,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08LinkedList/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07Merge/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/09StackEval/eval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

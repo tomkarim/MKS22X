@@ -21,6 +21,7 @@ public class MyDeque<E>{
     }
 
     public void addFirst(E e){
+	if(end
 
     }
 

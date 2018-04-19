@@ -9,15 +9,11 @@ public class MyDeque<E>{
     public MyDeque(){
 	data =(E[])new Object[10];
 	size = 10;
-	start = 0;
-	end = 9;
   }
 
     public MyDeque(int intcap){
 	data = (E[])new Object[intcap];
 	size = intcap;
-	int start = 0;
-	int end = intcap-1;
     }
 
     public int size(){

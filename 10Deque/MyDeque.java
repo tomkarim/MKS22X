@@ -21,12 +21,19 @@ public class MyDeque<E>{
     }
 
     public void addFirst(E e){
-	if(end
 
     }
 
-    public void addLast(E e){
+    public void addLast(){
 
+    }
+
+    public E removeFirst(){
+
+    }
+
+    public E removeLast(){
+	
     }
 
     public E getFirst(){

@@ -1,4 +1,4 @@
-public class MyDeque<E>{
+public class MyDeque<E> {
     private E[] data;
     private int size;
     private int start;
@@ -6,42 +6,42 @@ public class MyDeque<E>{
 
     @SuppressWarnings("unchecked")
 
-    public MyDeque(){
-	data =(E[])new Object[10];
-	size = 10;
-  }
-
-    public MyDeque(int intcap){
-	data = (E[])new Object[intcap];
-	size = intcap;
+    public MyDeque() {
+        data = (E[]) new Object[10];
+        size = 10;
     }
 
-    public int size(){
-	return size;
+    public MyDeque(int intcap) {
+        data = (E[]) new Object[intcap];
+        size = intcap;
     }
 
-    public void addFirst(E e){
-
+    public int size() {
+        return size;
     }
 
-    public void addLast(){
+    public void addFirst(E e) {
 
     }
 
-    public E removeFirst(){
+    public void addLast() {
 
     }
 
-    public E removeLast(){
-	
+    public E removeFirst() {
+
     }
 
-    public E getFirst(){
-	return E[start];
+    public E removeLast() {
+
     }
 
-    public E getLast(){
-	return E[end];
+    public E getFirst() {
+        return E[start];
     }
-    
+
+    public E getLast() {
+        return E[end];
+    }
+
 }

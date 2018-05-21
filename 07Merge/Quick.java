@@ -12,14 +12,16 @@ public class Quick{
     }
 
     public static void quickhelp(int[] ary, int lo, int hi){
+        if(lo >= hi){
+            return;
+        }
 	Random rng = new Random();
-	int index = rng.nextInt(hi-lo);
-	int pivot = ary[index];
-	int i = lo;
-	int lt = lo;
-	int gt = hi;
-	
-	swap(ary, index, lo);
+	    int index = rng.nextInt(hi-lo+1);
+	    int pivot = ary[index];
+        swap(ary, index, lo);
+        int i = lo;
+	    int lt = lo;
+	    int gt = hi;
 
 	while(i <= gt){
 	    if(ary[i] == pivot){
@@ -40,14 +42,14 @@ public class Quick{
     }
 
     public static int part(int[] ary, int lo, int hi){
-	Random rng = new Random();
-	int index = rng.nextInt(hi-lo);
-	int pivot = ary[index];
-	int i = lo;
-	int lt = lo;
-	int gt = hi;
+	    Random rng = new Random();
+	    int index = lo + rng.nextInt(hi-lo+1);
+	    int pivot = ary[index];
+        swap(ary, index, lo);
+        int i = lo;
+	    int lt = lo;
+	    int gt = hi;
 	
-	swap(ary, index, lo);
 
 	while(i <= gt){
 	    if(ary[i] == pivot){
@@ -84,13 +86,12 @@ public class Quick{
     }
 
     public static void main(String[]args){
-	int[] ary = {7, 9, 8, 3, 12, 0, 1};
-	quicksort(ary);
-	for(int i = 0; i < ary.length; i++){
-	    System.out.println(ary);
+	int[] data = {1,4,3,2,1,9,0,10};
+	Quick.quicksort(data);
 	}
-    }
 }
+    
+
     
     
 	

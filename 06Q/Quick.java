@@ -12,17 +12,16 @@ public class Quick{
     }
 
     public static void quickhelp(int[] ary, int lo, int hi){
+        if(lo >= hi){
+            return;
+        }
 	Random rng = new Random();
-	System.out.println(hi);
-	System.out.println(lo);
-	System.out.println(hi-lo);
-	int index = rng.nextInt(hi-lo);
-	int pivot = ary[index];
-	int i = lo;
-	int lt = lo;
-	int gt = hi;
-	
-	swap(ary, index, lo);
+	    int index = rng.nextInt(hi-lo+1);
+	    int pivot = ary[index];
+        swap(ary, index, lo);
+        int i = lo;
+	    int lt = lo;
+	    int gt = hi;
 
 	while(i <= gt){
 	    if(ary[i] == pivot){
@@ -43,14 +42,14 @@ public class Quick{
     }
 
     public static int part(int[] ary, int lo, int hi){
-	Random rng = new Random();
-	int index = lo + rng.nextInt(hi-lo+1);
-	int pivot = ary[index];
-	int i = lo;
-	int lt = lo;
-	int gt = hi;
+	    Random rng = new Random();
+	    int index = lo + rng.nextInt(hi-lo+1);
+	    int pivot = ary[index];
+        swap(ary, index, lo);
+        int i = lo;
+	    int lt = lo;
+	    int gt = hi;
 	
-	swap(ary, index, lo);
 
 	while(i <= gt){
 	    if(ary[i] == pivot){

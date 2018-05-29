@@ -12,7 +12,7 @@ public class MyLinkedList{
         Node next = null, prev = null;
         Integer value;
 
-        public Node(int value){
+        public Node(Integer value){
             this.value = value;
         }
 

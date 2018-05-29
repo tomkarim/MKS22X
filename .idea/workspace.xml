@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461bf3c-a467-4226-a4c6-e59ec400fdd1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/05USACO/Driver.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/05USACO/USACO.java" afterPath="$PROJECT_DIR$/05USACO/USACO.java" />
+      <change beforePath="$PROJECT_DIR$/08LinkedList/MyLinkedList.java" afterPath="$PROJECT_DIR$/08LinkedList/MyLinkedList.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,7 @@
       <file leaf-file-name="Quick.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06Q/Quick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="0">
               <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
@@ -58,73 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="USACO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4181#4182#0" expanded="true" />
-                <element signature="e#4259#4260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05USACO/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06Q/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quick.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06Q/Quick.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1526941175534" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1526941175534" expanded="true" signature="172:179" ph="{}" />
-                <marker date="1526941175534" expanded="false" signature="225:236" ph=" { " />
-                <marker date="1526941175534" expanded="false" signature="272:278" ph=" }" />
-                <marker date="1526941175534" expanded="true" signature="340:438" ph="{...}" />
-                <marker date="1526941175534" expanded="true" signature="505:1274" ph="{...}" />
-                <marker date="1526941175534" expanded="true" signature="1335:1942" ph="{...}" />
-                <marker date="1526941175534" expanded="true" signature="2000:2407" ph="{...}" />
-                <marker date="1526941175534" expanded="true" signature="2452:2541" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08LinkedList/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="136" column="41" lean-forward="false" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+            <state relative-caret-position="-1086">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +128,6 @@
         <option value="$PROJECT_DIR$/02NQueens/QueenBoard.java" />
         <option value="$PROJECT_DIR$/04Maze/Maze.java" />
         <option value="$PROJECT_DIR$/04Maze/Driver.java" />
-        <option value="$PROJECT_DIR$/08LinkedList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/08LinkedList/MyLinkedListImproved.java" />
         <option value="$PROJECT_DIR$/09StackEval/eval.java" />
         <option value="$PROJECT_DIR$/06Q/Driver.java" />
@@ -193,6 +136,7 @@
         <option value="$PROJECT_DIR$/11ExpressionTree/ExpressionTree.java" />
         <option value="$PROJECT_DIR$/05USACO/Driver.java" />
         <option value="$PROJECT_DIR$/05USACO/USACO.java" />
+        <option value="$PROJECT_DIR$/08LinkedList/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -203,7 +147,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -423,15 +367,15 @@
       <workItem from="1526869105901" duration="694000" />
       <workItem from="1526870266093" duration="531000" />
       <workItem from="1526940490947" duration="2038000" />
-      <workItem from="1527449421011" duration="3636000" />
+      <workItem from="1527449421011" duration="5954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69993000" />
+    <option name="totallyTimeSpent" value="72311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -512,12 +456,12 @@
           <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,35 +728,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06Q/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06Q/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
+        <state relative-caret-position="0">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08LinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="136" column="41" lean-forward="false" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,11 +762,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11ExpressionTree/ExpressionTree.java">
+    <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="770">
+          <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4181#4182#0" expanded="true" />
+            <element signature="e#4259#4260#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,14 +782,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05USACO/USACO.java">
+    <entry file="file://$PROJECT_DIR$/06Q/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+        <state relative-caret-position="617">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11ExpressionTree/ExpressionTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08LinkedList/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4181#4182#0" expanded="true" />
-            <element signature="e#4259#4260#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
           </folding>
         </state>
       </provider>
